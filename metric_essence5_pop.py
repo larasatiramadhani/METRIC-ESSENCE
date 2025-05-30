@@ -611,7 +611,7 @@ def run() :
                         margin-bottom: 10px;
                     ">
                         <div style="font-size: 16px; font-weight: 500; color: #334155;">
-                            Total Kebutuhan Flavour (Kg)
+                            Total Kebutuhan Paket
                         </div>
                         <div style="font-size: 20px; font-weight: 600; color: #1e293b;">
                             {total_rencana:,.4f}
@@ -726,7 +726,7 @@ def run() :
                         margin-bottom: 10px;
                     ">
                         <div style="font-size: 16px; font-weight: 500; color: #334155;">
-                            Total Kebutuhan Flavour (Kg)
+                            Total Kebutuhan Paket
                         </div>
                         <div style="font-size: 20px; font-weight: 600; color: #1e293b;">
                             {total_rencana:,.4f}
@@ -840,7 +840,7 @@ def run() :
                     margin-bottom: 10px;
                 ">
                     <div style="font-size: 16px; font-weight: 500; color: #334155;">
-                        Total Kebutuhan Flavour (Kg)
+                        Total Kebutuhan Paket
                     </div>
                     <div style="font-size: 20px; font-weight: 600; color: #1e293b;">
                         {total_rencana:,.4f}
@@ -941,7 +941,7 @@ def run() :
                                 margin-bottom: 10px;
                             ">
                                 <div style="font-size: 16px; font-weight: 500; color: #334155;">
-                                    Total Kebutuhan Flavour (Kg)
+                                    Total Kebutuhan Paket
                                 </div>
                                 <div style="font-size: 20px; font-weight: 600; color: #1e293b;">
                                     {total_realisasi:,.4f}
@@ -1040,7 +1040,7 @@ def run() :
                             margin-bottom: 10px;
                         ">
                             <div style="font-size: 16px; font-weight: 500; color: #334155;">
-                                Total Kebutuhan Flavour (Kg)
+                                Total Kebutuhan Paket
                             </div>
                             <div style="font-size: 20px; font-weight: 600; color: #1e293b;">
                                 {total_realisasi:,.4f}
