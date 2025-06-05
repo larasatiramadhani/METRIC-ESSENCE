@@ -245,5 +245,14 @@ def run():
             )
     else:
         st.error("Data dari Google Sheets kosong atau formatnya tidak sesuai.")
-if __name__ == "__main__":
+st.sidebar.title("📂 Navigasi Halaman")
+page = st.sidebar.selectbox("📌 Pilih Halaman:", ["Save PDF Form Essence", "Halaman HC", "Halaman Loly"], index=0)
+
+if page == "Halaman HC":
+    import metric_essence5
+    metric_essence5.run()
+elif page == "Halaman Loly":
+    import metric_essence5_pop
+    metric_essence5_pop.run()
+elif page == "Save PDF Form Essence":
     run()
